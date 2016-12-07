@@ -25,6 +25,11 @@ public class Battleship{
     //ASK THE USER TO PLACE THEIR FIRST SHIP
     Scanner input = new Scanner(System.in);
     
+    int x = -1;
+    int y = -1;
+    
+    while(x != 3 && y != 4){
+    
     //PROMPT THE USER TO PUT IN X AND Y LOCATION
     System.out.println("Enter in x and then y to place your first ship.");
     
@@ -44,9 +49,22 @@ public class Battleship{
     //PRINT THE BOARD BY CALLING YOUR CUSTOM 'printBoard' method
     printBoard();
     
-    //TO-DO: IN THE NEXT LINES OF CODE, ASK THE USER TO PLACE THE SECOND AND THIRD SHIPS
-   
-
+    //TO-DO: IN THE NEXT LINES OF CODE, ASK THE USER TO PLACE THE SECOND AND THIRD SHIPS 
+   }
+    
+    /*System.out.println("Enter in x and then y to place your second ship.");
+    System.out.println("x: ");
+    x = input.nextInt();
+    System.out.println("y: ");
+    y = input.nextInt();
+    ships[x][y] = '*'; 
+    printBoard();
+    
+   if (x==3 && y==4)
+     System.out.println("Your ship was sunk")*/
+     
+    
+     
   }
   
   /**
