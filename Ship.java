@@ -22,7 +22,7 @@ public class Ship{
     return x1;
   }
   
-  public void setx2(int newx1){
+  public void setx1(int newx1){
     x1 = newx1;
   }
   
@@ -54,9 +54,9 @@ public class Ship{
  
   
 
-  public int toint(){
+  public int toString(){
     return x1 + x2 + y1 + y2;
-  }
+  
   
   }
   
